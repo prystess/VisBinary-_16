@@ -43,7 +43,7 @@ Windows 下需保留 #include <Windows.h>
 Linux 可移除 Sleep() 相关内容
 
 2. 运行程序
-./visbinary
+./visbinary###
 
 📝 输入示例
 前序构造
