@@ -32,5 +32,24 @@ VisBinary 是一个用于演示与学习二叉树遍历过程的终端程序。
 
 ---
 
-## 📦 目录结构
+## ▶️ 使用方法
 
+### 1. 编译
+```bash
+gcc visbinary.c -o visbinary
+
+
+Windows 下需保留 #include <Windows.h>
+Linux 可移除 Sleep() 相关内容
+
+2. 运行程序
+./visbinary
+
+📝 输入示例
+前序构造
+ABD##E##C#F##
+
+层序数组构造
+A B C D # E # # # F #
+
+👨‍💻 作者 16
